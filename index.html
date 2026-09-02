@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex_5</title>
+
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/index.responsive.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+    <a class="navbar-brand" href="#">
+        <img src="./images/first-logo.png" class="img-fluid" alt="Nike Logo" id="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 column-gap-3">
+            <li class="nav-item">
+                <a class="nav-link active" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Latest">Latest</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Featured">Featured</a>
+            </li>
+        </ul>
+        <ul class="list-unstyled d-flex column-gap-3 mb-0">
+            <li><i class="fa-solid fa-heart"></i></li>
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+            <li><i class="fa-solid fa-user"></i></li>
+        </ul>
+    </div>
+    </div>
+</nav>
+
+    <header id="Home">
+        <div id="SC-Carousel" class="vh-100">
+            <div class="sc-Carousel-inner h-100">
+                <div class="sc-Carousel-item active h-100" data-color-name="first">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div class="col-lg-6 col-md-5 part1">
+                                <div class="item">
+                                    <h5 class="mainColor my-3">Nike Red Shoes</h5>
+                                    <h2 class="mb-3">Nike Metcon Shoes</h2>
+                                    <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Repellat Maiores Et Eos Eaque Veritatis Aut Laboriosam Earum Dolorem Iste Atque.</p>
+                                    <a href="#latest" class="btn mainButton">See More</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-7 part2">
+                                <div class="item">
+                                    <img src="./images/home-text-1.png" alt="Red Text">
+                                    <img src="./images/home-shoe-1.png" alt="Red Shoe">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sc-Carousel-item h-100" data-color-name="second">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div class="col-lg-6 col-md-5 part1">
+                                <div class="item">
+                                    <h5 class="mainColor">Nike Blue Shoes</h5>
+                                    <h2>Nike Metcon Shoes</h2>
+                                    <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Repellat Maiores Et Eos Eaque Veritatis Aut Laboriosam Earum Dolorem Iste Atque.</p>
+                                    <a href="#latest" class="btn mainButton">See More</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-7 part2">
+                                <div class="item">
+                                    <img src="./images/home-text-2.png" alt="Blue Text">
+                                    <img src="./images/home-shoe-2.png" alt="Blue Shoe">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sc-Carousel-item h-100" data-color-name="third">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div class="col-lg-6 col-md-5 part1">
+                                <div class="item">
+                                    <h5 class="mainColor">Nike Yellow Shoes</h5>
+                                    <h2>Nike Metcon Shoes</h2>
+                                    <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Repellat Maiores Et Eos Eaque Veritatis Aut Laboriosam Earum Dolorem Iste Atque.</p>
+                                    <a href="#latest" class="btn mainButton">See More</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-7 part2">
+                                <div class="item">
+                                    <img src="./images/home-text-3.png" alt="Yellow Text">
+                                    <img src="./images/home-shoe-3.png" alt="Yellow Shoe">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn mainButton rounded-circle next"><i class="fa-solid fa-chevron-right"></i></button>
+            <button class="btn mainButton rounded-circle prev"><i class="fa-solid fa-chevron-left"></i></button>
+        </div>
+    </header>
+
+    <section id="Latest" class="py-5">
+        <div class="container">
+            <div class="title text-center ">
+                <h2>LATEST PRODUCTS</h2>
+                <img src="./images/first-correct.png" alt="Nike Sign">
+            </div>
+        </div>
+    </section>
+
+    <section id="Featured" class="py-5">
+        <div class="container">
+            <div class="title text-center ">
+                <h2>FEATURE PRODUCTS</h2>
+                <img src="./images/first-correct.png" alt="Nike Sign">
+            </div>
+        </div
+    </section>
+
+    <div class="loadingPage">
+        <img src="./images/nike.gif" alt="Nike Logo gig">
+    </div>
+
+
+
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/shoes.js"></script>
+    <script src="./js/functions.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
