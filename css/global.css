@@ -1,0 +1,71 @@
+:root {
+    --main-color:#A3031C;
+    --first-color:#A3031C;
+    --second-color:#0D7AD4;
+    --third-color:#EC9720;
+}
+
+* {
+    font-family: "Nunito", sans-serif;
+}
+
+.mainButton {
+    background-color: transparent;
+    color: var(--main-color);
+    transition-duration: .5s;
+    border: 1px solid var(--main-color);
+
+}
+.mainButton:hover {
+    color: white;
+    background-color: var(--main-color);
+}
+
+.mainColor {
+    color: var(--main-color);
+}
+
+section {
+height: 100vh;
+}
+
+section#Latest {
+    background-color: #09c;
+}
+
+section#Featured {
+    background-color: green;
+}
+
+.title {
+    position: relative;
+}
+
+.title h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.title img {
+    width: 200px;
+}
+
+.loadingPage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 1;
+    transition-duration: 1s;
+}
+.loadingPage.hide {
+    opacity: 0;
+}
